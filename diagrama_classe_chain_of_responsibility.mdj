@@ -1,0 +1,4673 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAGcHotel000001=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGcHotel000002=",
+			"_parent": {
+				"$ref": "AAAAAAGcHotel000001="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGcHotel000003=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000042=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000043=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000042="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000004="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000044=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000043="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 45,
+											"height": 13,
+											"text": "«abstract»",
+											"width": 463.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000045=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000043="
+											},
+											"font": "Arial;13;3",
+											"parentStyle": true,
+											"left": 235,
+											"top": 60,
+											"height": 13,
+											"text": "Funcionario",
+											"width": 463.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000046=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000043="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 230,
+											"top": 40,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000047=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000043="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 230,
+											"top": 40,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 230,
+									"top": 40,
+									"width": 473.6,
+									"height": 38,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000044="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000045="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000046="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000047="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000048=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000042="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000004="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGcHotel000049=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000048="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000005="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 83,
+											"width": 463.6,
+											"height": 13,
+											"text": "#listaSolicitacoes: ArrayList",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGcHotel000050=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000048="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000006="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 98,
+											"width": 463.6,
+											"height": 13,
+											"text": "-funcionarioSuperior: Funcionario",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 230,
+									"top": 78,
+									"width": 473.6,
+									"height": 40
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000051=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000042="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000004="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000052=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000051="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000007="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 123,
+											"width": 463.6,
+											"height": 13,
+											"text": "+getFuncionarioSuperior(): Funcionario",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000053=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000051="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000009="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 138,
+											"width": 463.6,
+											"height": 13,
+											"text": "+setFuncionarioSuperior(funcionarioSuperior: Funcionario): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000054=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000051="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000012="
+											},
+											"font": "Arial;13;2",
+											"parentStyle": true,
+											"left": 235,
+											"top": 153,
+											"width": 463.6,
+											"height": 13,
+											"text": "+getDescricaoCargo(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000055=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000051="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000014="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 235,
+											"top": 168,
+											"width": 463.6,
+											"height": 13,
+											"text": "+autorizarSolicitacao(solicitacao: Solicitacao): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 230,
+									"top": 118,
+									"width": 473.6,
+									"height": 70
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000056=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000042="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000004="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000057=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000042="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000004="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 230,
+							"top": 40,
+							"width": 473.6,
+							"height": 148,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000043="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000048="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000051="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000056="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000057="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000058=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000017="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000059=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000058="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000017="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000060=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000059="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 20,
+											"top": 300,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000061=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000059="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 25,
+											"top": 307,
+											"height": 13,
+											"text": "FuncionarioRecepcionista",
+											"width": 211.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000062=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000059="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 20,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000063=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000059="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 20,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 20,
+									"top": 300,
+									"width": 221.6,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000060="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000061="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000062="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000063="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000064=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000058="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000017="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 20,
+									"top": 325,
+									"width": 221.6,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000065=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000058="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000017="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000066=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000065="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000018="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 25,
+											"top": 340,
+											"width": 211.6,
+											"height": 13,
+											"text": "+getDescricaoCargo(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 20,
+									"top": 335,
+									"width": 221.6,
+									"height": 25
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000067=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000058="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000017="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000068=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000058="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000017="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 20,
+							"top": 300,
+							"width": 221.6,
+							"height": 60,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000059="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000064="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000065="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000067="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000068="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000069=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000020="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000070=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000069="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000020="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000071=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000070="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 266.6,
+											"top": 300,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000072=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000070="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 271.6,
+											"top": 307,
+											"height": 13,
+											"text": "FuncionarioSupervisor",
+											"width": 211.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000073=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000070="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 266.6,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000074=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000070="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 266.6,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 266.6,
+									"top": 300,
+									"width": 221.6,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000071="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000072="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000073="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000074="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000075=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000069="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000020="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 266.6,
+									"top": 325,
+									"width": 221.6,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000076=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000069="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000020="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000077=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000076="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000021="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 271.6,
+											"top": 340,
+											"width": 211.6,
+											"height": 13,
+											"text": "+getDescricaoCargo(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 266.6,
+									"top": 335,
+									"width": 221.6,
+									"height": 25
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000078=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000069="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000020="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000079=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000069="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000020="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 266.6,
+							"top": 300,
+							"width": 221.6,
+							"height": 60,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000070="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000075="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000076="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000078="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000079="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000080=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000023="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000081=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000080="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000023="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000082=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000081="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 513.2,
+											"top": 300,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000083=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000081="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 518.2,
+											"top": 307,
+											"height": 13,
+											"text": "FuncionarioGerente",
+											"width": 211.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000084=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000081="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 513.2,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000085=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000081="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 513.2,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 513.2,
+									"top": 300,
+									"width": 221.6,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000082="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000083="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000084="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000085="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000086=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000080="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000023="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 513.2,
+									"top": 325,
+									"width": 221.6,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000087=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000080="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000023="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000088=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000087="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000024="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 518.2,
+											"top": 340,
+											"width": 211.6,
+											"height": 13,
+											"text": "+getDescricaoCargo(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 513.2,
+									"top": 335,
+									"width": 221.6,
+									"height": 25
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000089=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000080="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000023="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000090=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000080="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000023="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 513.2,
+							"top": 300,
+							"width": 221.6,
+							"height": 60,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000081="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000086="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000087="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000089="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000090="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000091=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000026="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000092=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000091="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000026="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000093=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000092="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 759.8000000000001,
+											"top": 300,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000094=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000092="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 764.8000000000001,
+											"top": 307,
+											"height": 13,
+											"text": "FuncionarioDiretor",
+											"width": 211.6
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000095=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000092="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 759.8000000000001,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000096=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000092="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 759.8000000000001,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 759.8000000000001,
+									"top": 300,
+									"width": 221.6,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000093="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000094="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000095="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000096="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000097=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000091="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000026="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 759.8000000000001,
+									"top": 325,
+									"width": 221.6,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000098=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000091="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000026="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000099=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000098="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000027="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 764.8000000000001,
+											"top": 340,
+											"width": 211.6,
+											"height": 13,
+											"text": "+getDescricaoCargo(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 759.8000000000001,
+									"top": 335,
+									"width": 221.6,
+									"height": 25
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000100=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000091="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000026="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000101=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000091="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000026="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 759.8000000000001,
+							"top": 300,
+							"width": 221.6,
+							"height": 60,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000092="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000097="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000098="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000100="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000101="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000102=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000029="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000103=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000102="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000029="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000104=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000103="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 900,
+											"top": 60,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000105=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000103="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 905,
+											"top": 67,
+											"height": 13,
+											"text": "Solicitacao",
+											"width": 434.8
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000106=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000103="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 900,
+											"top": 60,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000107=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000103="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 900,
+											"top": 60,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 900,
+									"top": 60,
+									"width": 444.8,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000104="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000105="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000106="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000107="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000108=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000102="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000029="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGcHotel000109=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000108="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000030="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 905,
+											"top": 90,
+											"width": 434.8,
+											"height": 13,
+											"text": "-tipoSolicitacao: TipoSolicitacao",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 900,
+									"top": 85,
+									"width": 444.8,
+									"height": 25
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000110=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000102="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000029="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000111=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000110="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000031="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 905,
+											"top": 115,
+											"width": 434.8,
+											"height": 13,
+											"text": "+getTipoSolicitacao(): TipoSolicitacao",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGcHotel000112=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000110="
+											},
+											"model": {
+												"$ref": "AAAAAAGcHotel000033="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 905,
+											"top": 130,
+											"width": 434.8,
+											"height": 13,
+											"text": "+setTipoSolicitacao(tipoSolicitacao: TipoSolicitacao): void",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 900,
+									"top": 110,
+									"width": 444.8,
+									"height": 40
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000113=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000102="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000029="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000114=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000102="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000029="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 900,
+							"top": 60,
+							"width": 444.8,
+							"height": 90,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000103="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000108="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000110="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000113="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000114="
+							}
+						},
+						{
+							"_type": "UMLInterfaceView",
+							"_id": "AAAAAAGcHotel000115=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000036="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000116=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000115="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000036="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000117=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000116="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1063.4,
+											"top": 305,
+											"height": 13,
+											"text": "«interface»",
+											"width": 118.0
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000118=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000116="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1063.4,
+											"top": 320,
+											"height": 13,
+											"text": "TipoSolicitacao",
+											"width": 118.0
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000119=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000116="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1058.4,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000120=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000116="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1058.4,
+											"top": 300,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1058.4,
+									"top": 300,
+									"width": 128.0,
+									"height": 38,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000117="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000118="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000119="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000120="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000121=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000115="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000036="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1058.4,
+									"top": 338,
+									"width": 128.0,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000122=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000115="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000036="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1058.4,
+									"top": 348,
+									"width": 128.0,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000123=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000115="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000036="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1058.4,
+									"top": 300,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000124=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000115="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000036="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1058.4,
+									"top": 300,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 1058.4,
+							"top": 300,
+							"width": 128.0,
+							"stereotypeDisplay": "label",
+							"height": 58,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000116="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000121="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000122="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000123="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000124="
+							},
+							"suppressAttributes": true
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000125=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000037="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000126=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000125="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000037="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000127=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000126="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 597.6000000000001,
+											"top": 470,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000128=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000126="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 602.6000000000001,
+											"top": 477,
+											"height": 13,
+											"text": "TipoSolicitacaoToalha",
+											"width": 161.20000000000002
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000129=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000126="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 597.6000000000001,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000130=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000126="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 597.6000000000001,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 597.6000000000001,
+									"top": 470,
+									"width": 171.20000000000002,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000127="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000128="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000129="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000130="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000131=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000125="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000037="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 597.6000000000001,
+									"top": 495,
+									"width": 171.20000000000002,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000132=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000125="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000037="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 597.6000000000001,
+									"top": 505,
+									"width": 171.20000000000002,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000133=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000125="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000037="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000134=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000125="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000037="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 597.6000000000001,
+							"top": 470,
+							"width": 171.20000000000002,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000126="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000131="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000132="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000133="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000134="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000135=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000038="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000136=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000135="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000038="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000137=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000136="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 793.8000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000138=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000136="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 798.8000000000002,
+											"top": 477,
+											"height": 13,
+											"text": "TipoSolicitacaoTrocaQuarto",
+											"width": 197.20000000000002
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000139=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000136="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 793.8000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000140=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000136="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 793.8000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 793.8000000000002,
+									"top": 470,
+									"width": 207.20000000000002,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000137="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000138="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000139="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000140="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000141=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000135="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000038="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 793.8000000000002,
+									"top": 495,
+									"width": 207.20000000000002,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000142=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000135="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000038="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 793.8000000000002,
+									"top": 505,
+									"width": 207.20000000000002,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000143=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000135="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000038="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000144=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000135="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000038="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 793.8000000000002,
+							"top": 470,
+							"width": 207.20000000000002,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000136="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000141="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000142="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000143="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000144="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000145=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000039="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000146=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000145="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000039="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000147=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000146="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1026.0000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000148=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000146="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1031.0000000000002,
+											"top": 477,
+											"height": 13,
+											"text": "TipoSolicitacaoUpgrade",
+											"width": 168.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000149=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000146="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1026.0000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000150=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000146="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1026.0000000000002,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1026.0000000000002,
+									"top": 470,
+									"width": 178.4,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000147="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000148="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000149="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000150="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000151=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000145="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000039="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1026.0000000000002,
+									"top": 495,
+									"width": 178.4,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000152=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000145="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000039="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1026.0000000000002,
+									"top": 505,
+									"width": 178.4,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000153=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000145="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000039="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000154=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000145="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000039="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 1026.0000000000002,
+							"top": 470,
+							"width": 178.4,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000146="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000151="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000152="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000153="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000154="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000155=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000040="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000156=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000155="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000040="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000157=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000156="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1229.4000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000158=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000156="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1234.4000000000003,
+											"top": 477,
+											"height": 13,
+											"text": "TipoSolicitacaoReembolso",
+											"width": 182.8
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000159=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000156="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1229.4000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000160=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000156="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1229.4000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1229.4000000000003,
+									"top": 470,
+									"width": 192.8,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000157="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000158="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000159="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000160="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000161=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000155="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000040="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1229.4000000000003,
+									"top": 495,
+									"width": 192.8,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000162=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000155="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000040="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1229.4000000000003,
+									"top": 505,
+									"width": 192.8,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000163=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000155="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000040="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000164=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000155="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000040="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 1229.4000000000003,
+							"top": 470,
+							"width": 192.8,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000156="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000161="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000162="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000163="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000164="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGcHotel000165=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000041="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGcHotel000166=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000165="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000041="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000167=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000166="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1447.2000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000168=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000166="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1452.2000000000003,
+											"top": 477,
+											"height": 13,
+											"text": "TipoSolicitacaoVendaHotel",
+											"width": 190.0
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000169=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000166="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1447.2000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"text": "(from Model)",
+											"width": 86.4
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGcHotel000170=",
+											"_parent": {
+												"$ref": "AAAAAAGcHotel000166="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1447.2000000000003,
+											"top": 470,
+											"height": 13,
+											"visible": false,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1447.2000000000003,
+									"top": 470,
+									"width": 200.0,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGcHotel000167="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGcHotel000168="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGcHotel000169="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGcHotel000170="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGcHotel000171=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000165="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000041="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1447.2000000000003,
+									"top": 495,
+									"width": 200.0,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGcHotel000172=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000165="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000041="
+									},
+									"subViews": [],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1447.2000000000003,
+									"top": 505,
+									"width": 200.0,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGcHotel000173=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000165="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000041="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGcHotel000174=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000165="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000041="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 1447.2000000000003,
+							"top": 470,
+							"width": 200.0,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGcHotel000166="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGcHotel000171="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGcHotel000172="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGcHotel000173="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGcHotel000174="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAGcHotel000176=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000175="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000177=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000175="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000178=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000175="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000179=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000175="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000176="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000058="
+							},
+							"lineStyle": 1,
+							"points": "131:299;240:189",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000177="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000178="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000179="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAGcHotel000181=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000180="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000182=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000180="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000183=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000180="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000184=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000180="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000181="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000069="
+							},
+							"lineStyle": 1,
+							"points": "377:299;377:189",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000182="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000183="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000184="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAGcHotel000186=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000185="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000187=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000185="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000188=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000185="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000189=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000185="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000186="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000080="
+							},
+							"lineStyle": 1,
+							"points": "624:299;624:189",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000187="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000188="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000189="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAGcHotel000191=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000190="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000192=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000190="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000193=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000190="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000194=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000190="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000191="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000091="
+							},
+							"lineStyle": 1,
+							"points": "871:299;694:189",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000192="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000193="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000194="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAGcHotel000196=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000195="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000197=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000195="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000198=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000195="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000199=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000195="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000196="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000125="
+							},
+							"lineStyle": 1,
+							"points": "683:469;1068:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000197="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000198="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000199="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAGcHotel000201=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000200="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000202=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000200="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000203=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000200="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000204=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000200="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000201="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000135="
+							},
+							"lineStyle": 1,
+							"points": "897:469;1068:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000202="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000203="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000204="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAGcHotel000206=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000205="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000207=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000205="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000208=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000205="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000209=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000205="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000206="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000145="
+							},
+							"lineStyle": 1,
+							"points": "1115:469;1115:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000207="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000208="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000209="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAGcHotel000211=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000210="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000212=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000210="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000213=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000210="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000214=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000210="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000211="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000155="
+							},
+							"lineStyle": 1,
+							"points": "1326:469;1176:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000212="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000213="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000214="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAGcHotel000216=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000215="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000217=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000215="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000218=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000215="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000219=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000215="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000216="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000165="
+							},
+							"lineStyle": 1,
+							"points": "1547:469;1176:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000217="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000218="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000219="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAGcHotel000223=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000220="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000224=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000220="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000225=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000220="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000226=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000220="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000227=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000221="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.5236,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000228=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000221="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.7854,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000229=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000221="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.5236,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000230=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000222="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.5236,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 0,
+									"text": "+funcionarioSuperior",
+									"width": 144.0,
+									"visible": true
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000231=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000222="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.7854,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 0,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000232=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000222="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.5236,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"edgePosition": 0,
+									"text": "0..1",
+									"width": 28.8,
+									"visible": true
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGcHotel000233=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000221="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGcHotel000234=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000223="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000222="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"lineStyle": 1,
+							"points": "705:70;764:70;764:15;644:15;644:39",
+							"showVisibility": true,
+							"showEndOrder": "hide",
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000224="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000225="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000226="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAGcHotel000227="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAGcHotel000228="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAGcHotel000229="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAGcHotel000230="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAGcHotel000231="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAGcHotel000232="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAGcHotel000233="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAGcHotel000234="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAGcHotel000236=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000235="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000237=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000235="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000238=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000235="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000239=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000235="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000236="
+									},
+									"edgePosition": 1,
+									"visible": false
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000102="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000042="
+							},
+							"lineStyle": 1,
+							"points": "705:135;899:105",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000237="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000238="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000239="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAGcHotel000243=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000003="
+							},
+							"model": {
+								"$ref": "AAAAAAGcHotel000240="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000244=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000240="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000245=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000240="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 1.5708,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000246=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000240="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -1.5708,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 1,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000247=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000241="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.5236,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000248=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000241="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.7854,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000249=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000241="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.5236,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 2,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000250=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000242="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.5236,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 0,
+									"text": "+tipoSolicitacao",
+									"width": 115.2,
+									"visible": true
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000251=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000242="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": -0.7854,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 0,
+									"visible": false
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcHotel000252=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000242="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 0,
+									"top": 0,
+									"height": 13,
+									"alpha": 0.5236,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"edgePosition": 0,
+									"text": "1",
+									"width": 7.2,
+									"visible": true
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGcHotel000253=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000241="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGcHotel000254=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000243="
+									},
+									"model": {
+										"$ref": "AAAAAAGcHotel000242="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcHotel000115="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcHotel000102="
+							},
+							"lineStyle": 1,
+							"points": "1122:151;1122:299",
+							"showVisibility": true,
+							"showEndOrder": "hide",
+							"nameLabel": {
+								"$ref": "AAAAAAGcHotel000244="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGcHotel000245="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGcHotel000246="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAGcHotel000247="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAGcHotel000248="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAGcHotel000249="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAGcHotel000250="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAGcHotel000251="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAGcHotel000252="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAGcHotel000253="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAGcHotel000254="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000004=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "Funcionario",
+					"stereotype": "abstract",
+					"isAbstract": true,
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGcHotel000005=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "listaSolicitacoes",
+							"visibility": "protected",
+							"type": "ArrayList"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGcHotel000006=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "funcionarioSuperior",
+							"visibility": "private",
+							"type": "Funcionario"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000007=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "getFuncionarioSuperior",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000008=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000007="
+									},
+									"type": "Funcionario",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000009=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "setFuncionarioSuperior",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000010=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000009="
+									},
+									"name": "funcionarioSuperior",
+									"type": "Funcionario"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000011=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000009="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000012=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "getDescricaoCargo",
+							"visibility": "public",
+							"isAbstract": true,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000013=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000012="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000014=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"name": "autorizarSolicitacao",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000015=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000014="
+									},
+									"name": "solicitacao",
+									"type": "Solicitacao"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000016=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000014="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGcHotel000220=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGcHotel000221=",
+								"_parent": {
+									"$ref": "AAAAAAGcHotel000220="
+								},
+								"reference": {
+									"$ref": "AAAAAAGcHotel000004="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGcHotel000222=",
+								"_parent": {
+									"$ref": "AAAAAAGcHotel000220="
+								},
+								"reference": {
+									"$ref": "AAAAAAGcHotel000004="
+								},
+								"name": "funcionarioSuperior",
+								"multiplicity": "0..1",
+								"navigable": "navigable"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGcHotel000235=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000004="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000029="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000017=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "FuncionarioRecepcionista",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000018=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000017="
+							},
+							"name": "getDescricaoCargo",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000019=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000018="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGcHotel000175=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000017="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000017="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000004="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000020=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "FuncionarioSupervisor",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000021=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000020="
+							},
+							"name": "getDescricaoCargo",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000022=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000021="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGcHotel000180=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000020="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000020="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000004="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000023=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "FuncionarioGerente",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000024=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000023="
+							},
+							"name": "getDescricaoCargo",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000025=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000024="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGcHotel000185=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000023="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000023="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000004="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000026=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "FuncionarioDiretor",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000027=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000026="
+							},
+							"name": "getDescricaoCargo",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000028=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000027="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAGcHotel000190=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000026="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000026="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000004="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000029=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "Solicitacao",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGcHotel000030=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000029="
+							},
+							"name": "tipoSolicitacao",
+							"visibility": "private",
+							"type": "TipoSolicitacao"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000031=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000029="
+							},
+							"name": "getTipoSolicitacao",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000032=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000031="
+									},
+									"type": "TipoSolicitacao",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGcHotel000033=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000029="
+							},
+							"name": "setTipoSolicitacao",
+							"visibility": "public",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000034=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000033="
+									},
+									"name": "tipoSolicitacao",
+									"type": "TipoSolicitacao"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGcHotel000035=",
+									"_parent": {
+										"$ref": "AAAAAAGcHotel000033="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						}
+					],
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGcHotel000240=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000029="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGcHotel000241=",
+								"_parent": {
+									"$ref": "AAAAAAGcHotel000240="
+								},
+								"reference": {
+									"$ref": "AAAAAAGcHotel000029="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGcHotel000242=",
+								"_parent": {
+									"$ref": "AAAAAAGcHotel000240="
+								},
+								"reference": {
+									"$ref": "AAAAAAGcHotel000036="
+								},
+								"name": "tipoSolicitacao",
+								"multiplicity": "1",
+								"navigable": "navigable"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAGcHotel000036=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacao"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000037=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacaoToalha",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGcHotel000195=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000037="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000037="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000036="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000038=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacaoTrocaQuarto",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGcHotel000200=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000038="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000038="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000036="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000039=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacaoUpgrade",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGcHotel000205=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000039="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000039="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000036="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000040=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacaoReembolso",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGcHotel000210=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000040="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000040="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000036="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGcHotel000041=",
+					"_parent": {
+						"$ref": "AAAAAAGcHotel000002="
+					},
+					"name": "TipoSolicitacaoVendaHotel",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGcHotel000215=",
+							"_parent": {
+								"$ref": "AAAAAAGcHotel000041="
+							},
+							"source": {
+								"$ref": "AAAAAAGcHotel000041="
+							},
+							"target": {
+								"$ref": "AAAAAAGcHotel000036="
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}
