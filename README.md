@@ -1,4 +1,4 @@
-# padrao-chain-of-responsibility
+# Padrão chain of responsability
 
 Solicitações de hóspedes em um Hotel: (Recepcionista → Supervisor → Gerente → Diretor)
 
@@ -45,4 +45,3 @@ classDiagram
     TipoSolicitacao <|.. TipoSolicitacaoReembolso
     TipoSolicitacao <|.. TipoSolicitacaoVendaHotel
 ```
-# padrao-chainofresponsability
